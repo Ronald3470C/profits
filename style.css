@@ -1,0 +1,66 @@
+/* Richard's General page style SAMPLE */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Richard's Navigation bar */
+.navbar {
+  background-color: #F5EFE5;
+  padding: 17px;
+}
+
+
+.logo img{
+  position: absolute;
+  margin: top 15px;
+  margin-left: -250px;
+}
+
+
+.navbar a {
+  color: #004080;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Richard's Headings */
+h1 {
+  color: #004080;
+  margin-top: 30px;
+}
+
+/* Form styling */
+form {
+  margin-top: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f7a;
+}
