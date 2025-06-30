@@ -2,7 +2,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
+  background-color: #ADD9D1;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
 
 
 .navbar {
-  background-color: #F5EFE5;
+  background-color: #025C5C;
   padding: 17px;
 }
 
@@ -18,12 +18,12 @@ body {
 .logo img{
   position: absolute;
   margin: top 15px;
-  margin-left: -250px;
+  margin-left: -300px;
 }
 
 
 .navbar a {
-  color: #004080;
+  color: #F5EFE5;
   margin: 10px;
   text-decoration: none;
   font-weight: bold;
@@ -35,23 +35,24 @@ body {
 
 
 h1 {
-  color: #004080;
+  color: #025C5C;
   margin-top: 0px;
 }
 
 h2 {
-  color: #004080;
+  color: #025C5C;
   margin-top: 30px;
 }
 
 h3 {
-  color: #004080;
+  color: #025C5C;
   margin-top: 30px;
 }
 
 p {
-  color: #004080;
-  margin-top: 0px;
+  color: #025C5C;
+  margin-top: 15px;
+  font-weight: bold;
 }
 
 
@@ -69,7 +70,7 @@ input, textarea {
 
 button {
   padding: 10px 20px;
-  background-color: #008cba;
+  background-color: #025C5C;
   color: white;
   border: none;
   border-radius: 5px;
@@ -77,7 +78,7 @@ button {
 }
 
 button:hover {
-  background-color: #005f7a;
+  background-color: #014a4a;
 }
 
 div.scroll-container {
@@ -89,4 +90,23 @@ div.scroll-container {
 
 div.scroll-container img {
   padding: 10px;
+}
+
+.brand {
+  color: #025C5C;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.bordered {
+  border: 2px solid #000000;
+}
+
+h4 {
+  color: #025C5C;
+  margin-top: 5px;
+}
+
+a{
+  color: #025C5C;
 }
